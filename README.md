@@ -66,21 +66,21 @@ Navigate to http://localhost:8501
 Upload a CSV/Excel file
 
 Explore automated insights, visualizations, and hypothesis tests
-🔥 Why Use Indius AI?
-✅ **No Coding Required – Built for non-programmers and business users.
-✅ **SmolAgent-Powered – Automates analysis steps, reducing manual effort.
-✅ **Hypothesis Testing – Built-in statistical evaluation for decision-making.
-✅ **AI-Powered Prompting – Intelligent Q&A on your dataset.
-✅ **Interactive Visualizations – Generate insights visually with ease.
 
-🤝 Contributing
-We welcome contributions! Follow these steps:
+## 🔥 Why Use Indius AI?
 
-**Fork the Repository
-**Create a Feature Branch
-**Commit & Push Changes
-**Submit a Pull Request
-📜 License
+✅ **No Coding Required** – Built for non-programmers and business users.
+
+✅ **SmolAgent-Powered** – Automates analysis steps, reducing manual effort.
+
+✅ **Hypothesis Testing** – Built-in statistical evaluation for decision-making.
+
+✅ **AI-Powered Prompting** – Intelligent Q&A on your dataset.
+
+✅ **Interactive Visualizations** – Generate insights visually with ease.
+
+## 📜 License
+
 This project is licensed under the MIT License. See LICENSE for details.
 
 💡 Indius AI – Making Data Science Effortless for Everyone! 🚀
