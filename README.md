@@ -76,7 +76,13 @@ This means **users do not need extensive data science knowledge**—the platform
 
 ## 🛠️  Usage  
 
-Just Clone it and Run `streamlit run main.py`
+Just clone it and run it!
+
+`git clone https://github.com/yashasnadigsyn/IndiusAi/`
+
+`pip install -r requirements.txt`
+
+`streamlit run main.py`
 
 Navigate to http://localhost:8501
 
