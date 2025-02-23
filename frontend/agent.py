@@ -8,7 +8,7 @@ def response_code(question, file_name, data_info):
     model = LiteLLMModel(
         model_id="together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
     #    api_base="https://api.together.xyz/v1",
-        api_key="87c346e5ef2b9263ffb1777069b0b5ac0b85778631522cbac6272b08da62f506"
+        api_key=""
     )
     model.flatten_messages_as_text=True
 
@@ -36,7 +36,7 @@ def response_fig(question, file_name, data_info):
     model = LiteLLMModel(
         model_id="together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
     #    api_base="https://api.together.xyz/v1",
-        api_key="87c346e5ef2b9263ffb1777069b0b5ac0b85778631522cbac6272b08da62f506",
+        api_key="",
     )
     model.flatten_messages_as_text = True
 
