@@ -1,16 +1,17 @@
 from smolagents import CodeAgent, LiteLLMModel
 import pandas as pd
-import json
+import json, os
 import plotly.graph_objs as go
-import streamlit as st  # Assuming you're using Streamlit
+import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def response_code(question, file_name, data_info):
     model = LiteLLMModel(
-        model_id="together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    #    api_base="https://api.together.xyz/v1",
-        api_key=""
+        model_id="gemini/gemini-2.0-flash",
+        api_key=os.getenv("GEMINI_API_KEY")
     )
-    model.flatten_messages_as_text=True
 
     agent = CodeAgent(
         tools=[],
@@ -23,7 +24,7 @@ def response_code(question, file_name, data_info):
     Create a Python script that does the following steps:
     1. Read the CSV file located at 'files/{file_name}' using pandas and store it in a variable called 'df'.
     2. Analyze the data to answer the user's question: "{question}".
-    3. Return the code to run the above question.
+    3. Return the answers for the above question as str.
     """
 
     try:
@@ -34,11 +35,9 @@ def response_code(question, file_name, data_info):
 
 def response_fig(question, file_name, data_info):
     model = LiteLLMModel(
-        model_id="together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    #    api_base="https://api.together.xyz/v1",
-        api_key="",
+        model_id="gemini/gemini-2.0-flash",
+        api_key=os.getenv("GEMINI_API_KEY")
     )
-    model.flatten_messages_as_text = True
 
     agent = CodeAgent(
         tools=[],
@@ -73,5 +72,3 @@ def response_fig(question, file_name, data_info):
     except Exception as e:
         error_msg = f"Code execution failed: {str(e)}"
         return None
-
-def

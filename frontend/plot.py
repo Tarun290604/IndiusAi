@@ -1,11 +1,14 @@
 from smolagents import CodeAgent, LiteLLMModel
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def generate_plot(data_info, file_name, chart_type, x_axis, y_axis):
     # Initialize Gemini model
     model = LiteLLMModel(
-        model_id="together_ai/gemini-2.0-flash",
-        api_key=""  # Replace with your actual API key
+        model_id="gemini/gemini-2.0-flash",
+        api_key=os.getenv("GEMINI_API_KEY")
     )
 
     # Create CodeAgent with necessary permissions
