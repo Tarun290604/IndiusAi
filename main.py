@@ -4,8 +4,8 @@ import pandas as pd
 import ast
 import json
 from plot import generate_plot
-from backend.agent import response_fig, response_code, response_code_run
-from backend.model import get_response
+from agent import response_fig, response_code, response_code_run
+from model import get_response
 import plotly.graph_objs as go
 
 # Page config
