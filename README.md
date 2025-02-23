@@ -9,20 +9,23 @@ Indius AI leverages **SmolAgent**, a powerful agent-based framework, to automate
 ## 🚀 Key Features  
 
 ### 📝 Data Summary & Quality Check  
-Provides a quick overview of dataset properties, ensuring data integrity before analysis. Examples include:  
+Provides a quick overview of dataset properties, ensuring data integrity before analysis.
+Examples include:  
 ✔ **Basic Overview**: Number of rows, columns, data types, and memory usage.  
 ✔ **Missing Values**: Identifies and reports missing values in the dataset.  
 ✔ **Duplicate Entries**: Detects and highlights duplicate records.  
 
 ### 📊 Data Visualization & Analysis  
-Generates meaningful visual representations of data trends and distributions. Examples include:  
+Generates meaningful visual representations of data trends and distributions. 
+Examples include:  
 ✔ **Histograms** for distribution analysis.  
 ✔ **Box plots** for outlier detection.  
 ✔ **Scatter plots** for correlation analysis.  
 ✔ **Bar and Pie charts** for categorical data insights.  
 
 ### 🔎 AI-Powered Prompting for Data Understanding  
-Allows users to interact with the dataset by asking questions. Examples include:  
+Allows users to interact with the dataset by asking questions.
+Examples include:  
 ✔ *"What are the key trends in this dataset?"*  
 ✔ *"Which column has the highest variance?"*  
 ✔ *"Can you summarize the correlation between variables?"*  
@@ -35,7 +38,8 @@ Performs statistical tests to validate assumptions about the dataset. Examples i
 ✔ **Correlation tests (Pearson/Spearman/Kendall).**  
 
 ### 📂 Seamless File Upload & Processing  
-Allows users to upload their datasets effortlessly. Examples include:  
+Allows users to upload their datasets effortlessly.
+Examples include:  
 ✔ **CSV and Excel file uploads** for instant analysis.  
 ✔ **Automatic data parsing** and structure detection.  
 ✔ **Error-free preprocessing** using SmolAgent.  
@@ -53,37 +57,15 @@ This means **users do not need extensive data science knowledge**—the platform
 
 ---
 
-## 🛠️ Installation & Usage  
+## 🛠️  Usage  
 
-### 🔧 Prerequisites  
-Ensure you have:  
-- **Python 3.8+** installed  
-- Required libraries (to be installed later)  
+Just Clone it and Run `streamlit run main.py`
 
-### 💻 Installation Steps  
+Navigate to http://localhost:8501
 
-1️⃣ **Clone the Repository**  
+Upload a CSV/Excel file
 
-```bash
-git clone https://github.com/yashasnadigsyn/IndiusAi.git
-cd IndiusAi
-2️⃣ Install Dependencies
-
-pip install -r requirements.txt
-3️⃣ Start the Backend
-
-cd backend
-python app.py
-4️⃣ Launch the Frontend
-
-cd ../frontend
-open index.html  # (or use your browser)
-5️⃣ Upload a Dataset & Start Analyzing
-
-```
-**Navigate to http://localhost:5000
-**Upload a CSV/Excel file
-**Explore automated insights, visualizations, and hypothesis tests
+Explore automated insights, visualizations, and hypothesis tests
 🔥 Why Use Indius AI?
 ✅ **No Coding Required – Built for non-programmers and business users.
 ✅ **SmolAgent-Powered – Automates analysis steps, reducing manual effort.
