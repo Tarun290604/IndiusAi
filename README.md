@@ -19,7 +19,7 @@ Indius AI leverages **SmolAgent**, a powerful agent-based framework, to automate
 <img src="assets/View_8.png" alt="Example Hypothesis" width="800">  
 
 ### 🎥 Demo Video  
-
+Demo: https://youtu.be/SFp_4gy-Cn4
 ---
 
 
