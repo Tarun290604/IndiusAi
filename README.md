@@ -6,6 +6,23 @@ Indius AI leverages **SmolAgent**, a powerful agent-based framework, to automate
 
 ---
 
+## 📷 Screenshots & Demo  
+
+### 🖼️ Screenshots  
+<img src="assets/View_1.png" alt="Home Page" width="800">  
+<img src="assets/View_2.png" alt="Dataset Upload" width="800">  
+<img src="assets/View_3.png" alt="Plot" width="800">  
+<img src="assets/View_4.png" alt="Example Plot" width="800">  
+<img src="assets/View_5.png" alt="Data Description" width="800">  
+<img src="assets/View_6.png" alt="Data Details" width="800">  
+<img src="assets/View_7.png" alt="Hypothesis" width="800">  
+<img src="assets/View_8.png" alt="Example Hypothesis" width="800">  
+
+### 🎥 Demo Video  
+
+---
+
+
 ## 🚀 Key Features  
 
 ### 📝 Data Summary & Quality Check  
